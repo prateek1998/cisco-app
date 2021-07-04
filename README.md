@@ -11,10 +11,10 @@ docker-compose up -d
 3. Now you will see, there are two different container will start.
 4. Now copy the docker container name ending with name nginx.
 for example:
-`cisco_nginx_1`
+`cisco-app_nginx_1`
 5. Copy this container name and then use this command and to go inside the container.
 ```bash 
-docker exec -it cisco_nginx_1 bash
+docker exec -it cisco-app_nginx_1 bash
 ```
 6. Now you are inside the container, run this command including your domain name.
 ```bash
